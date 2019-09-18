@@ -6,9 +6,24 @@
 </head>
 <body>
 <button type="button" onclick="showMessage();">Click Me!</button>
+<div id = "messageDiv"></div>
+<button type="button" onclick="showMeta();">Click Me!</button>
+<button type="button" onclick="ShowFuture();">Click Me !</button>
+<button type="button" onclick="Showmylove();">Click Me!</button>
 <script>
     function showMessage(){
         alert('Xin chào!');
+    }
+    function showMeta(){
+        document.getElementById('messageDiv').innerHTML = 'Xin chào!';
+    }
+    function ShowFuture() {
+        document.write("Xin Cháo !");
+ 
+    }
+    function Showmylove() {
+        console.log('Xin Chào!')
+        
     }
 </script>
 </body>
